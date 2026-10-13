@@ -13,7 +13,7 @@ style: |
     padding: 66px 76px 110px 76px;
     justify-content: flex-start !important;
     align-content: flex-start !important;
-    background-color: #F6F9F2;
+    background-color: #ffffff;
     border-top: 6px solid var(--accent);
     background-image: url('assets/techio-logo.png'), url('assets/masc-logo.png');
     background-repeat: no-repeat, no-repeat;
@@ -248,14 +248,15 @@ This slide previews the agenda. Each card maps to one of the six sections that f
 
 Two .NET agents carry the work, in order.
 
-1. **.NET Discovery Agent:** analyzes the legacy app and produces the endpoint inventory and slicing plan.
+1. **.NET Discovery Agent:** analyzes the legacy app into an endpoint inventory and slicing plan.
+   Assesses code quality, dependencies, performance, security, structure and sustainability.
 2. **.NET Modernizing Agent:** turns that plan into reviewed code, one unit at a time, not a black box.
 
 ### How the Modernizing Agent works
 
-- **Input:** the slicing plan and endpoint inventory from the Discovery Agent.
-- **Process:** the Modernization Lead orchestrates the build, test and self-healing fix loop, without writing production code itself.
-- **Output:** a reviewable PR for every stage; the TechIO Tech Lead reviews and approves before anything merges.
+- **Input:** slicing plan and endpoint inventory from the Discovery Agent
+- **Process:** Modernization Lead orchestrates build, test and self-healing, without writing code itself
+- **Output:** reviewable PR per stage; TechIO Tech Lead reviews and approves
 
 ---
 
