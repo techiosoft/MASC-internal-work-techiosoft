@@ -122,13 +122,13 @@ TechIO<br>Monday, November 16, 2026
 ## Realized Benefits — Platform & Security
 
 - **Supported runtime**
-  Moved from .NET Framework 4.8 (end-of-life, no security patches) to .NET 10 LTS
+  Moved from .NET Framework 4.8 (end-of-life, no security patches) to .NET 10 LTS.
 - **Secure authentication**
-  Replaced deprecated ADAL with MSAL / Microsoft.Identity.Web, routes and tokens unchanged
+  Replaced deprecated ADAL with MSAL / Microsoft.Identity.Web, routes and tokens unchanged.
 - **Platform portability**
-  The service now runs on Linux Azure App Service, without containers
+  The service now runs on Linux Azure App Service, without containers.
 - **Safer secrets**
-  Configuration and secrets now use managed identity
+  Configuration and secrets now use managed identity.
 
 ---
 
@@ -137,13 +137,13 @@ TechIO<br>Monday, November 16, 2026
 ## Realized Benefits — Data, Monitoring & Parity
 
 - **Modern data and code layers**
-  14 dependency projects migrated, EF6 moved to EF Core 10, 3 dead references removed
+  14 dependency projects migrated, EF6 moved to EF Core 10, 3 dead references removed.
 - **Preserved monitoring**
-  Telemetry now runs on the Azure Monitor OpenTelemetry SDK, same App Insights resource
+  Telemetry now runs on the Azure Monitor OpenTelemetry SDK, same App Insights resource.
 - **Proven parity**
-  Golden-master tests confirm identical responses, backed by unit, integration, and security testing
+  Golden-master tests confirm identical responses, backed by unit, integration, and security testing.
 - **No consumer impact**
-  Existing consumers need no changes
+  Existing consumers need no changes.
 
 ---
 
@@ -154,10 +154,10 @@ TechIO<br>Monday, November 16, 2026
 *Reviewed and verified by your own team.*
 
 <ul>
-<li><span class="num">100%</span><span class="label">Codebase reviewed</span><span class="desc">Full UAT code review completed by the client-side business team</span></li>
-<li><span class="num">15</span><span class="label">Bugs reported</span><span class="desc">Raised during the UAT code review</span></li>
-<li><span class="num">15/15</span><span class="label">Bugs cleared</span><span class="desc">All reported bugs resolved by the TechIO team</span></li>
-<li><span class="num">0</span><span class="label">Open defects</span><span class="desc">No outstanding UAT findings at handoff</span></li>
+<li><span class="num">100%</span><span class="label">Codebase reviewed</span><span class="desc">Full UAT code review completed by the client-side business team.</span></li>
+<li><span class="num">15</span><span class="label">Bugs reported</span><span class="desc">Raised during the UAT code review.</span></li>
+<li><span class="num">15/15</span><span class="label">Bugs cleared</span><span class="desc">All reported bugs resolved by the TechIO team.</span></li>
+<li><span class="num">0</span><span class="label">Open defects</span><span class="desc">No outstanding UAT findings at handoff.</span></li>
 </ul>
 
 *TechIO trains the modernizing agent on what we learned from this review, and continues tailoring it with enhancements specific to your APIs.*
@@ -171,9 +171,9 @@ TechIO<br>Monday, November 16, 2026
 *Client.Api has been live in the test environment since October 13, completing the project's signed scope. This handoff follows hypercare.*
 
 - **Sign-off**
-  Formal handoff document going out November 16 for your team's review and signature
+  Formal handoff document going out November 16 for your team's review and signature.
 - **Deliverables**
-  Client.Api live in the test environment since Oct 13, plus source repos, test harness, dashboard, access checklist, and run guide
+  Client.Api live in the test environment since Oct 13, plus source repos, test harness, dashboard, access checklist, and run guide.
 
 <!-- Deliverables list above should be confirmed complete with the Tech Lead before presenting. -->
 
@@ -186,7 +186,7 @@ TechIO<br>Monday, November 16, 2026
 - **Go-live**
   When is production deployment scheduled on your team's side? That will help us align on next steps.
 - **Your feedback**
-  We'd love your take on the modernization itself, and on the agent-assisted approach that built it
+  We'd love your take on the modernization itself, and on the agent-assisted approach that built it.
 
 <!-- Capture the client's feedback live and record it here afterward. -->
 
