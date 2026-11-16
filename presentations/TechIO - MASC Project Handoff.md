@@ -42,12 +42,11 @@ style: |
     display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 22px;
   }
   section.cards3 li {
-    margin: 0; padding: 22px 24px 20px; min-height: 0;
+    margin: 0; padding: 20px 22px 18px; min-height: 130px;
     background: var(--dark); border-left: 4px solid var(--gold); border-radius: 9px;
-    box-shadow: 0 4px 14px rgba(16,36,24,0.22);
-    font-size: 20px; line-height: 1.35; color: var(--dark-muted);
+    font-size: 18px; line-height: 1.32; color: var(--dark-muted);
   }
-  section.cards3 li strong { display: block; color: var(--gold); font-size: 24px; margin-bottom: 6px; }
+  section.cards3 li strong { display: block; color: var(--gold); font-size: 22px; margin-bottom: 6px; }
   section.stats ul {
     list-style: none; padding: 0; margin: 20px 0 0;
     display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px;
@@ -125,7 +124,7 @@ TechIO<br>Monday, November 16, 2026
 - **Supported runtime**
   Moved from .NET Framework 4.8 (end-of-life, no security patches) to .NET 10 LTS
 - **Secure authentication**
-  Replaced the deprecated ADAL library with MSAL / Microsoft.Identity.Web. API routes, payloads, and tokens are unchanged
+  Replaced deprecated ADAL with MSAL / Microsoft.Identity.Web, routes and tokens unchanged
 - **Platform portability**
   The service now runs on Linux Azure App Service, without containers
 - **Safer secrets**
@@ -138,11 +137,11 @@ TechIO<br>Monday, November 16, 2026
 ## Realized Benefits — Data, Monitoring & Parity
 
 - **Modern data and code layers**
-  14 dependency projects migrated, EF6 moved to EF Core 10 on the same schema, and 3 dead references removed
+  14 dependency projects migrated, EF6 moved to EF Core 10, 3 dead references removed
 - **Preserved monitoring**
-  Telemetry moved to the Azure Monitor OpenTelemetry SDK, on the same Application Insights resource
+  Telemetry now runs on the Azure Monitor OpenTelemetry SDK, same App Insights resource
 - **Proven parity**
-  Golden-master tests confirm identical responses, backed by unit and integration tests, security scanning, and code review
+  Golden-master tests confirm identical responses, backed by unit, integration, and security testing
 - **No consumer impact**
   Existing consumers need no changes
 
@@ -174,7 +173,7 @@ TechIO<br>Monday, November 16, 2026
 - **Sign-off**
   Formal handoff document going out November 16 for your team's review and signature
 - **Deliverables**
-  Client.Api running in the test environment since Oct 13, plus source repos, endpoint inventory, contract-parity test harness, live progress dashboard, access checklist, and local-run guide
+  Client.Api live in the test environment since Oct 13, plus source repos, test harness, dashboard, access checklist, and run guide
 
 <!-- Deliverables list above should be confirmed complete with the Tech Lead before presenting. -->
 
@@ -198,7 +197,7 @@ TechIO<br>Monday, November 16, 2026
 ## Looking Ahead
 
 - **TechIO's agentic platform**
-  The same agent-driven approach that modernized Client.Api could extend to the rest of your API portfolio. Worth a conversation with your executive team, whenever the time is right.
+  The same agent-driven approach behind Client.Api could extend to the rest of your API portfolio — worth a conversation with your executive team.
 
 ---
 
